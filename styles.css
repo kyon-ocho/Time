@@ -1,7 +1,17 @@
 body {
   font-family: 'Courier New', monospace;
   font-size: 14px;
-  background: #eee;
+  background-image: url("body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background-image: url("/Users/kyougokukazuki/Desktop/Portfolio.1~10/MyStopwatch/time.jpg");
+  background-size:cover;
+}
+
+.main-header {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
 }
 
 .container {
@@ -30,6 +40,18 @@ body {
   user-select: none;
 }
 
+#stop {
+  background-color: aqua;
+}
+
+#start {
+  background-color: yellowgreen;
+}
+
+#reset {
+  background-color: plum;
+}
+
 .controls {
   display: flex;
   justify-content: space-between;
@@ -37,4 +59,99 @@ body {
 
 .inactive {
   opacity: 0.6;
+}
+
+.explanation {
+  width:480px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+  background: antiquewhite;
+}
+
+h2 {
+  margin: 20px auto;
+  width: 270px;
+  text-align: center;
+}
+
+.itemprop {
+  margin: 20px auto;
+  width: 480px;
+  text-align: center;
+}");
+  background-size:cover;
+}
+
+.main-header {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  margin: 20px auto;
+  width: 270px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#timer {
+  background: #ddd;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  background: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+#stop {
+  background-color: aqua;
+}
+
+#start {
+  background-color: yellowgreen;
+}
+
+#reset {
+  background-color: plum;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.6;
+}
+
+.explanation {
+  width:480px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+  background: antiquewhite;
+}
+
+h2 {
+  margin: 20px auto;
+  width: 270px;
+  text-align: center;
+}
+
+.itemprop {
+  margin: 20px auto;
+  width: 480px;
+  text-align: center;
 }
